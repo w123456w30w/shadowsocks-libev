@@ -1,5 +1,9 @@
 sudo apt-get install --no-install-recommends gettext build-essential autoconf libtool libpcre3-dev asciidoc xmlto libev-dev libc-ares-dev automake libmbedtls-dev libsodium-dev
+
+
 ./autogen.sh
+
+
 ./configure --disable-documentation
 ## Usage
 
